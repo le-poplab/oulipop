@@ -7,7 +7,7 @@ function getRandomColor() {
   return color;
 }
 
-var swatch = ['#4D5061', '#EDD2E0', '#EDBBB4', '#DBABBE', '#BAA1A7','#4D5061', '#EDD2E0', '#EDBBB4', '#DBABBE', '#BAA1A7'];
+var swatch = ['#f8ed62', '#e9d700', '#dab600', '#a98600', '#f8ed62', '#e9d700', '#dab600', '#a98600','#f8ed62', '#e9d700', '#dab600', '#a98600'];
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));

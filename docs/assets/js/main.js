@@ -21,8 +21,7 @@ function getColorFromPalette(index){
 
 var slider;
 var slideCount = [];
-//var url = 'https://raw.githubusercontent.com/le-poplab/outils-et-methodes/master/oulipop/'+window.location.hash.replace('#', '')+'.csv';
-var url = 'assets/data/'+window.location.hash.replace('#', '')+'.csv';
+var url = 'https://raw.githubusercontent.com/le-poplab/oulipop/master/data/'+window.location.hash.replace('#', '')+'.csv';
 console.log(url);
 $(document).ready(function(){
 	$.get(url, { "_": $.now() }, function( data ) {
